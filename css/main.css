@@ -1,0 +1,188 @@
+/*# sourceMappingURL=main.css.map */
+@media screen and (max-width: 500px) {
+  /* line 2, ../sass/_media.scss */
+  .firstName, .lastName {
+    min-width: 100%;
+  }
+}
+/* Layout */
+/* line 3, ../sass/_mix.scss */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 60px auto;
+  max-width: 460px;
+}
+
+/* Typography */
+/* line 12, ../sass/_mix.scss */
+input[type="submit"],
+input[type="button"],
+button {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+/* line 19, ../sass/_mix.scss */
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block;
+}
+
+/* line 32, ../sass/_mix.scss */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+/* line 7, ../sass/main.scss */
+body {
+  background: url("../img/bg.png") center top no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+/* line 13, ../sass/main.scss */
+.wrapper {
+  font: 100% Arial, sans-serif;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 0 20px 60px 20px;
+  margin-bottom: 70px;
+  margin: 60px auto;
+  max-width: 460px;
+}
+/* line 21, ../sass/main.scss */
+.wrapper .header {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-flow: row wrap;
+  -ms-align-items: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+/* line 25, ../sass/main.scss */
+.wrapper .header__title {
+  background: url("../img/icon.svg") 2px no-repeat;
+  color: #1b1c1d;
+  font: 100% Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-left: 30px;
+}
+/* line 35, ../sass/main.scss */
+.wrapper .long__text {
+  font: 100% Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 100%;
+  margin-bottom: 35px;
+}
+/* line 42, ../sass/main.scss */
+.wrapper .long__text--red {
+  color: #ea355a;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* line 48, ../sass/main.scss */
+.wrapper .dayliform {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-flow: row wrap;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: space-between;
+}
+/* line 51, ../sass/main.scss */
+.wrapper .dayliform .firstName {
+  width: 49%;
+  height: 40px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  border: none;
+  padding-left: 15px;
+}
+/* line 60, ../sass/main.scss */
+.wrapper .dayliform .lastName {
+  width: 49%;
+  height: 40px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  border: none;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+/* line 69, ../sass/main.scss */
+.wrapper .dayliform .mail {
+  width: 100%;
+  height: 40px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  border: none;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+/* line 78, ../sass/main.scss */
+.wrapper .dayliform .pass {
+  width: 100%;
+  height: 40px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  border: none;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+/* line 87, ../sass/main.scss */
+.wrapper .dayliform input[type="submit"] {
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  background-color: #ea355a;
+  border-radius: 4px;
+  box-shadow: 0 3px 0 #bd1962;
+  color: white;
+  font: 100% Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  border: none;
+  margin-bottom: 25px;
+}
+/* line 103, ../sass/main.scss */
+.wrapper .end-text {
+  font: 100% Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #7a7b7f;
+}
+/* line 110, ../sass/main.scss */
+.wrapper .end-text__terms {
+  text-decoration: none;
+  color: #e12a6c;
+}
+/* line 114, ../sass/main.scss */
+.wrapper .end-text__privacy {
+  color: #e52e66;
+  text-decoration: none;
+}
